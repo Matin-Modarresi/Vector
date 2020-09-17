@@ -14,14 +14,14 @@ int main()
 	v.reserve(15);
 	v.resize(16);
 	
-	cout << v.size() << "\n";
-	cout << v.capacity() << "\n";
+	cout << v.size() << "\n";     // 16 
+	cout << v.capacity() << "\n"; //16
 	
-	v.reserve(16);
+	v.reserve(16); 
 	v.resize(15);
 	
-	cout << v.size() << "\n";
-	cout << v.capacity() << "\n";
+	cout << v.size() << "\n";       //15
+	cout << v.capacity() << "\n";  //16
 	
 	v.resize(0);         // size = 0 
 	v.shrink_to_fit();  // capacity = 0
