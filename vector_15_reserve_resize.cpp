@@ -3,9 +3,6 @@
 #include <iterator>
 using namespace std;
 
-#define CAPA_SIZE  cout << v.capacity() << "\n";\
-cout << v.size() << "\n";
-
 
 int main()
 {
